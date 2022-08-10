@@ -1,0 +1,17 @@
+/* .main-col{
+    margin-left: 18rem;
+    margin-top: .8rem;
+} */
+
+.items-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.filter-container{
+    padding-right: 2rem;
+    margin-top: 2rem;
+    height: 20rem;
+}

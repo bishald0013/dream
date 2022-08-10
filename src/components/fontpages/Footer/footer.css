@@ -1,0 +1,19 @@
+.foter{
+    background-color: rgba(212, 212, 212, 0.247);
+}
+
+.icon{
+    position: absolute;
+    padding-right: 15rem;
+    margin-top: 4rem;
+}
+
+
+.line{
+    margin: auto;
+    border-style: solid;
+    border-color: rgba(3, 3, 3, 0.144);
+    border-width: thin;
+    width: 100%;
+}
+

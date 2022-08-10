@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@700&family=Dancing+Script:wght@400;700&family=Montserrat:wght@400;500;600;700;900&family=Poppins:wght@200&family=Roboto:wght@400;500&family=Sacramento&family=Ubuntu:wght@500&display=swap');
+
+.carousel-item{
+    height: 30rem;
+    color: aliceblue;
+    position: relative;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif ;
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+
+@media (max-width: 1000px) {
+    h1{
+        text-align: center;
+        font-weight: 900;
+        font-size: 3rem;
+    }
+    p{
+        text-align: center;
+    }
+
+
+    .carousel-item{
+        height: 14rem;
+        color: aliceblue;
+        
+    }
+
+}
+
+@media (max-width: 985px){
+
+    .cont{
+        padding-top: 200px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+}
