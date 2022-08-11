@@ -4,14 +4,31 @@
 } */
 
 .items-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    margin-left: 8rem;
+    /* padding:10px; */
 }
 
-.filter-container{
-    padding-right: 2rem;
+
+
+
+@media (max-width: 800px) {
+    .items-container{
+        margin-left: -1rem;
+        width: 100%;
+    }
+}
+
+
+/* .filter-container{
+    margin-top: 20rem;
     margin-top: 2rem;
     height: 20rem;
-}
+} */
+
+/* .rounded{
+    margin-top: 10rem;
+
+} */

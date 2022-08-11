@@ -2,6 +2,7 @@ import { faIndianRupeeSign } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { CartState } from "../../context/Context";
+import "./singleproduct.css"
 
 function SingleRing({ prod }) {
   const {
@@ -10,7 +11,7 @@ function SingleRing({ prod }) {
   } = CartState();
 
   return (
-    <div className="card w-25 mx-3 my-3">
+    <div className="card prod-card mx-5 my-5">
       <img src={prod.image} className="card-img-top" alt="" />
       <div className="card-body">
         <h5 class="card-title">{prod.title}</h5>

@@ -2,13 +2,14 @@ import { faIndianRupeeSign } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 import { CartState } from '../../context/Context'
+import "./singleproduct.css"
 
 function SingleDreamCature({prod}) {
 
     const {state: {cart}, dispatch} = CartState()
 
   return (
-    <div class="card w-25 mx-3 my-3">
+    <div class="card prod-card mx-5 my-5">
       <img src={prod.image} class="card-img-top" alt="..." />
       <div class="card-body">
         <h5 class="card-title">{prod.title}</h5>
