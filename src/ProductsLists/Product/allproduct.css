@@ -16,7 +16,7 @@
 
 @media (max-width: 800px) {
     .items-container{
-        margin-left: -1rem;
+        margin-left: 1rem;
         width: 100%;
     }
 }

@@ -64,16 +64,17 @@ function Filter() {
             </label>
           </div>
           <ul class="list-group my-4 mx-3">
-            <Link to="../allproduct" class="list-group-item list-group-item-info">
+            <h2 className="text-start fs-6 fw-regular">Product Items</h2>
+            <Link to="../allproduct" class="list-group-item list-group-item-light">
               All products
             </Link>
-            <Link to="../dream" class="list-group-item list-group-item-warning">
+            <Link to="../dream" class="list-group-item list-group-item-light">
               Dream Catures
             </Link>
-            <Link to="../allring" class="list-group-item list-group-item-danger">
+            <Link to="../allring" class="list-group-item list-group-item-light">
               Rings
             </Link>
-            <Link to="../cart" class="btn btn-group-item list-group-item-danger my-3">
+            <Link to="../cart" class="btn btn-group-item list-group-item-light my-3">
               Go to cart
             </Link>
           </ul>
